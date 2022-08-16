@@ -1,0 +1,9 @@
+.moviesPage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 40px;
+    column-gap: 50px;
+    row-gap: 20px;
+}

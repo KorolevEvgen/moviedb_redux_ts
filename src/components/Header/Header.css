@@ -1,0 +1,17 @@
+.header img {
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+}
+
+.header {
+    background: var(--accent-color);
+    border-bottom: 2px solid var(--third-accent-color);
+    padding: 15px;
+    display: flex;
+}
+
+.header-search{
+    padding-left: 180px;
+    padding-top: 30px;
+}

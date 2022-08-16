@@ -1,0 +1,80 @@
+.movieDetails-wrapper {
+    display: flex;
+}
+
+
+.movieDetails-backArrow {
+    width: 150px;
+    height: 100px;
+    margin: 50px 40px 0 50px;
+    padding: 5px 2px;
+    border: 5px solid var(--accent-color);
+    border-radius: 50%;
+    background: var(--second-accent-color);
+    transform: rotate(180deg);
+
+}
+
+.movieDetails-back img {
+    width: 70px;
+    height: 70px;
+}
+
+.movieDetails-movie-detail {
+    display: flex;
+    align-items: center;
+    margin: 30px 0 10px 0;
+}
+
+.movieDetails-description {
+    max-width: 500px;
+    color: white;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.description-title {
+    font-size: 40px;
+    text-align: center;
+    margin: 10px 40px 0 40px;
+    text-shadow: 1px 2px 2px var(--third-accent-color);
+}
+
+.description-tagline {
+   text-align: center;
+    font: normal small-caps 20px/15px fantasy;
+    color: var(--third-accent-color);
+}
+
+.description-genres {
+    display: flex;
+    font-size: 18px;
+    color: var(--second-accent-color);
+    margin: 0;
+    padding: 20px 10px 10px 10px;
+}
+
+.description-genres > span {
+    padding: 5px;
+    margin-left: 20px;
+    background: var(--accent-color);
+    border-radius: 20px;
+    border: 2px solid var(--third-accent-color);
+}
+
+.description-overview {
+    padding-top: 20px;
+    font-size: 22px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.description-ratingStar {
+    margin: 10px 0;
+}
+
+
+
+

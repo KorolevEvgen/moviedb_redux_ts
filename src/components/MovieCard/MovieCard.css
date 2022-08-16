@@ -1,0 +1,50 @@
+.card {
+    width: 200px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: none;
+
+}
+
+.card-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+}
+
+.card-title {
+    color: var(--color-main-text);
+    font-size: 20px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-vote {
+    background: var(--accent-color);
+    position: absolute;
+    bottom: 190px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: 2px solid var(--third-accent-color);
+    color: var(--second-accent-color);
+}
+
+.card :hover{
+    cursor: pointer;
+    box-shadow: var(--accent-color) 10px 10px 50px;
+}

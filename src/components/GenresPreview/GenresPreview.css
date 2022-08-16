@@ -1,0 +1,7 @@
+.card-genres{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--second-accent-color);
+    font-size: 15px;
+}
